@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A57AA441F0B587F003E5B5D /* HashTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A57AA421F0B587F003E5B5D /* HashTable.cpp */; };
+		1A57AA471F0B588C003E5B5D /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A57AA451F0B588C003E5B5D /* LinkedList.cpp */; };
 		4AF8C2281E1CC807000E201C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AF8C2271E1CC807000E201C /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +25,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4AF8C2241E1CC807000E201C /* Pokemon Go IV Rater */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Pokemon Go IV Rater"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A57AA421F0B587F003E5B5D /* HashTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HashTable.cpp; sourceTree = "<group>"; };
+		1A57AA431F0B587F003E5B5D /* HashTable.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HashTable.hpp; sourceTree = "<group>"; };
+		1A57AA451F0B588C003E5B5D /* LinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
+		1A57AA461F0B588C003E5B5D /* LinkedList.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
+		4AF8C2241E1CC807000E201C /* Pokemon Go RAID BOSSES */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Pokemon Go RAID BOSSES"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AF8C2271E1CC807000E201C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +55,7 @@
 		4AF8C2251E1CC807000E201C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4AF8C2241E1CC807000E201C /* Pokemon Go IV Rater */,
+				4AF8C2241E1CC807000E201C /* Pokemon Go RAID BOSSES */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				4AF8C2271E1CC807000E201C /* main.cpp */,
+				1A57AA421F0B587F003E5B5D /* HashTable.cpp */,
+				1A57AA431F0B587F003E5B5D /* HashTable.hpp */,
+				1A57AA451F0B588C003E5B5D /* LinkedList.cpp */,
+				1A57AA461F0B588C003E5B5D /* LinkedList.hpp */,
 			);
 			path = "Pokemon Go IV Rater";
 			sourceTree = "<group>";
@@ -65,9 +75,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4AF8C2231E1CC807000E201C /* Pokemon Go IV Rater */ = {
+		4AF8C2231E1CC807000E201C /* Pokemon Go RAID BOSSES */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AF8C22B1E1CC807000E201C /* Build configuration list for PBXNativeTarget "Pokemon Go IV Rater" */;
+			buildConfigurationList = 4AF8C22B1E1CC807000E201C /* Build configuration list for PBXNativeTarget "Pokemon Go RAID BOSSES" */;
 			buildPhases = (
 				4AF8C2201E1CC807000E201C /* Sources */,
 				4AF8C2211E1CC807000E201C /* Frameworks */,
@@ -77,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = "Pokemon Go IV Rater";
+			name = "Pokemon Go RAID BOSSES";
 			productName = "Pokemon Go IV Rater";
-			productReference = 4AF8C2241E1CC807000E201C /* Pokemon Go IV Rater */;
+			productReference = 4AF8C2241E1CC807000E201C /* Pokemon Go RAID BOSSES */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4AF8C21F1E1CC807000E201C /* Build configuration list for PBXProject "Pokemon Go IV Rater" */;
+			buildConfigurationList = 4AF8C21F1E1CC807000E201C /* Build configuration list for PBXProject "Pokemon Go RAID BOSSES" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -109,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4AF8C2231E1CC807000E201C /* Pokemon Go IV Rater */,
+				4AF8C2231E1CC807000E201C /* Pokemon Go RAID BOSSES */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A57AA441F0B587F003E5B5D /* HashTable.cpp in Sources */,
+				1A57AA471F0B588C003E5B5D /* LinkedList.cpp in Sources */,
 				4AF8C2281E1CC807000E201C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,7 +242,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4AF8C21F1E1CC807000E201C /* Build configuration list for PBXProject "Pokemon Go IV Rater" */ = {
+		4AF8C21F1E1CC807000E201C /* Build configuration list for PBXProject "Pokemon Go RAID BOSSES" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AF8C2291E1CC807000E201C /* Debug */,
@@ -239,13 +251,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AF8C22B1E1CC807000E201C /* Build configuration list for PBXNativeTarget "Pokemon Go IV Rater" */ = {
+		4AF8C22B1E1CC807000E201C /* Build configuration list for PBXNativeTarget "Pokemon Go RAID BOSSES" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4AF8C22C1E1CC807000E201C /* Debug */,
 				4AF8C22D1E1CC807000E201C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
